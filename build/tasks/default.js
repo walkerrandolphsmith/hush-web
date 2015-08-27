@@ -2,4 +2,4 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', ['specsjs', 'build'], function () {});
+gulp.task('default', ['build'], function () {});

@@ -14,7 +14,7 @@ module.exports = {
 		new webpack.optimize.DedupePlugin(),
 		new BowerWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			title: 'blog',
+			title: 'hush-web',
 			template: path.join(__dirname, './web/index.html')
 		})
 	],
@@ -25,10 +25,14 @@ module.exports = {
 	module: {
 		loaders: [
 		{
-			test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: 'babel-loader?optional=runtime'
+			test: /\.js$/,
+			exclude:[/node_modules/, /public\/components/],
+			loader: 'babel-loader?optional=runtime'
 		},
 		{
-			test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: [ 'react-hot', 'babel-loader?optional=runtime']
+			test: /\.jsx$/,
+			exclude:[/node_modules/, /public\/components/],
+			loaders: [ 'react-hot', 'babel-loader?optional=runtime']
 		},
 		{
 			test: /\.(less|css)$/,
@@ -45,7 +49,8 @@ module.exports = {
 		{
 			test: /\.(ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
 			loader: 'file-loader'
-		}, {
+		},
+		{
 			test: /.*\.(gif|jpg)$/,
 			loader: ['file', 'image'],
 			query: {
@@ -53,7 +58,8 @@ module.exports = {
 				interlaced: true,
 				optimizationLevel: 7
 			}
-		}, {
+		},
+		{
 			test: /\.png$/,
 			loaders: ['url-loader', 'image'],
 			query: {
@@ -62,6 +68,7 @@ module.exports = {
 				interlaced: true,
 				optimizationLevel: 7
 			}
-		}]
+		}
+		]
 	}
 };
