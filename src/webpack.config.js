@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var BowerWebpackPlugin = require('bower-webpack-plugin');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
 	entry: path.join(__dirname, './app/index.jsx'),
@@ -16,7 +17,8 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'hush-web',
 			template: path.join(__dirname, './web/index.html')
-		})
+		}),
+		new ExtractTextPlugin('styles.css')
 	],
 	resolve: {
 		extensions: ['', '.js', '.jsx'],
@@ -35,9 +37,12 @@ module.exports = {
 			loaders: [ 'react-hot', 'babel-loader?optional=runtime']
 		},
 		{
-			test: /\.(less|css)$/,
-			loaders: ['style-loader', 'css-loader', 'autoprefixer-loader', 'less-loader']
-		},
+        test: /\.less$/,
+        loader: ExtractTextPlugin.extract(
+            'css?sourceMap!' +
+            'less?sourceMap'
+        )
+    },
 		{
 			test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
 			loader: 'url-loader?limit=10000&minetype=application/font-woff'

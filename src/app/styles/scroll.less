@@ -1,0 +1,90 @@
+.cbp-so-scroller {
+  position: relative;
+  z-index: 5 !important;
+  margin-top: 3em;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.cbp-so-section {
+  margin-bottom: none;
+}
+
+.cbp-so-section:before,
+.cbp-so-section:after {
+  content: " ";
+  display: table;
+}
+
+.cbp-so-section:after {
+  clear: both;
+}
+
+.cbp-so-section h2 {
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.cbp-so-section p {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.cbp-so-side {
+  text-align: center;
+  margin: 0;
+  padding: 3em 4%;
+  overflow: hidden;
+  min-height: 12em;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+
+  h2{
+    font-family: "Oswald";
+  }
+  p{
+    font-family: 'Dosis';
+  }
+}
+
+#cbp-so-slide-notify{
+  padding: 0;
+  margin-top: -4em !important;
+}
+
+.cbp-so-side:before,
+.cbp-so-side:after {
+  content: " ";
+  display: table;
+}
+
+.cbp-so-side:after {
+  clear: both;
+}
+
+.cbp-so-init .cbp-so-side {
+  opacity: 0;
+}
+
+.cbp-so-init .cbp-so-side-left {
+  -webkit-transform: translateX(-80px);
+  -moz-transform: translateX(-80px);
+  transform: translateX(-80px);
+}
+
+.cbp-so-init .cbp-so-side-right {
+  -webkit-transform: translateX(80px);
+  -moz-transform: translateX(80px);
+  transform: translateX(80px);
+}
+
+.cbp-so-section.cbp-so-animate .cbp-so-side-left,
+.cbp-so-section.cbp-so-animate .cbp-so-side-right {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
