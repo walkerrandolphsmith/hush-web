@@ -66,13 +66,7 @@ module.exports = {
 		},
 		{
 			test: /\.png$/,
-			loaders: ['url-loader', 'image'],
-			query: {
-				mimetype: 'image/png',
-				progressive: true,
-				interlaced: true,
-				optimizationLevel: 7
-			}
+			loader: "file-loader"
 		}
 		]
 	}
