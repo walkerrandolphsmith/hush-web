@@ -67,6 +67,10 @@ module.exports = {
 		{
 			test: /\.png$/,
 			loader: "file-loader"
+		},
+		{
+			test: /\.apk$/,
+			loader: "file-loader?name=hush.apk"
 		}
 		]
 	}

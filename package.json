@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Promotional website for Android app, Hush.",
   "dependencies": {
+    "webpack-path-rewriter": "~1.1.2"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
