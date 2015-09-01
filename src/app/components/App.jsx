@@ -73,7 +73,7 @@ export default React.createClass({
 											<p>Find places the way you already know how.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right">
-										<img src={this.state.searchAddress} />
+										<img className="device" src={this.state.searchAddress} />
 									</figure>
 							</section>
 
@@ -84,7 +84,7 @@ export default React.createClass({
 											<p>Find places by speaking.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right" >
-										<img src={this.state.searchVoice} />
+										<img className="device" src={this.state.searchVoice} />
 									</figure>
 							</section>
 
@@ -95,7 +95,7 @@ export default React.createClass({
 											<p>Quickly find Movie theaters, Places of worship, Government buildings and 100+ more types of locations.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-left">
-												<img src={this.state.searchType} />
+												<img className="device" src={this.state.searchType} />
 									</figure>
 							</section>
 
@@ -105,7 +105,7 @@ export default React.createClass({
 											<p>Save any location by drawing a cicle around the area you want.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right" >
-										<img src={this.state.searchDraw} />
+										<img className="device" src={this.state.searchDraw} />
 									</figure>
 							</section>
 
@@ -115,7 +115,7 @@ export default React.createClass({
 											<p>Add and remove places from your list of favorites.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-left">
-												<img src={this.state.myPlaces} />
+												<img className="device" src={this.state.myPlaces} />
 									</figure>
 							</section>
 
