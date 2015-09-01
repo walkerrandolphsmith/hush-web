@@ -10,11 +10,10 @@ var searchVoice = require('./../styles/assets/devices/search-voice.png');
 var searchDraw = require('./../styles/assets/devices/draw.png');
 
 import React from 'react';
-import {RouteHandler, Navigation} from 'react-router';
 import './App.less';
 
 export default React.createClass({
-	mixins: [Navigation],
+	mixins: [],
 	componentDidMount: componentDidMount,
 	getInitialState: function(){
 		return {
@@ -121,7 +120,6 @@ export default React.createClass({
 
 					</div>
 			</div>
-			<RouteHandler/>
 		</div>;
 	}
 });
