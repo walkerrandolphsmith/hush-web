@@ -7,7 +7,7 @@ var DefaultRoute = Router.DefaultRoute;
 import App from './components/App';
 
 var routes = (
-	<Route name="app" path="/" handler={App}>
+	<Route name="app" path="/hush-web" handler={App}>
 	</Route>
 );
 
