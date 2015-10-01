@@ -35,16 +35,19 @@ export default React.createClass({
 
 			<div className="row headers">
 					<div className="col-lg-4">
+							<i className="fa fa-search"></i>
 							<h1>Find Place</h1>
 							<p>Search by address, voice, type, or just draw a circle around it on the map.</p>
 					</div>
 
 					<div className="col-lg-4">
+							<i className="fa fa-star"></i>
 							<h1>Save Place</h1>
 							<p>Add the location to a list of your places.</p>
 					</div>
 
 					<div className="col-lg-4">
+							<i className="fa fa-bell-slash"></i>
 							<h1>Silence Device</h1>
 							<p>Automagically silence your device when you arrive and unsilence when you leave.</p>
 					</div>
