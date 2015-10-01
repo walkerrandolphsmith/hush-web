@@ -36,19 +36,19 @@ export default React.createClass({
 			<div className="row headers">
 					<div className="col-lg-4">
 							<i className="fa fa-search"></i>
-							<h1>Find Place</h1>
+							<h2>Find Place</h2>
 							<p>Search by address, voice, type, or just draw a circle around it on the map.</p>
 					</div>
 
 					<div className="col-lg-4">
 							<i className="fa fa-star"></i>
-							<h1>Save Place</h1>
+							<h2>Save Place</h2>
 							<p>Add the location to a list of your places.</p>
 					</div>
 
 					<div className="col-lg-4">
 							<i className="fa fa-bell-slash"></i>
-							<h1>Silence Device</h1>
+							<h2>Silence Device</h2>
 							<p>Automagically silence your device when you arrive and unsilence when you leave.</p>
 					</div>
 			</div>
@@ -71,7 +71,7 @@ export default React.createClass({
 					<div id="cbp-so-scroller" className="cbp-so-scroller" scroller>
 							<section className="cbp-so-section cbp-so-init cbp-so-animate">
 									<article className="cbp-so-side cbp-so-side-left">
-											<h2>Search By Address</h2>
+											<h3>Search By Address</h3>
 											<p>Find places the way you already know how.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right">
@@ -82,7 +82,7 @@ export default React.createClass({
 
 							<section className="cbp-so-section cbp-so-init cbp-so-animate">
 									<article className="cbp-so-side cbp-so-side-left">
-											<h2>Search By Voice</h2>
+											<h3>Search By Voice</h3>
 											<p>Find places by speaking.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right" >
@@ -93,7 +93,7 @@ export default React.createClass({
 
 							<section className="cbp-so-section cbp-so-init cbp-so-animate">
 									<article className="cbp-so-side cbp-so-side-right">
-											<h2>Search By type</h2>
+											<h3>Search By type</h3>
 											<p>Quickly find Movie theaters, Places of worship, Government buildings and 100+ more types of locations.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-left">
@@ -103,7 +103,7 @@ export default React.createClass({
 
 							<section className="cbp-so-section cbp-so-init cbp-so-animate">
 									<article className="cbp-so-side cbp-so-side-left">
-											<h2>Save any location</h2>
+											<h3>Save any location</h3>
 											<p>Save any location by drawing a cicle around the area you want.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-right" >
@@ -113,7 +113,7 @@ export default React.createClass({
 
 							<section className="cbp-so-section cbp-so-init cbp-so-animate">
 									<article className="cbp-so-side cbp-so-side-right">
-											<h2>My places</h2>
+											<h3>My places</h3>
 											<p>Add and remove places from your list of favorites.</p>
 									</article>
 									<figure className="cbp-so-side cbp-so-side-left">
