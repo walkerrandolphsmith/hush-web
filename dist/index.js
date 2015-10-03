@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js\"), RootInstanceProvider = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/RootInstanceProvider.js\"), ReactMount = require(\"react/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } (function () {\n\n'use strict';\n\nvar _interopRequireDefault = __webpack_require__(18)['default'];\n\nvar _React = __webpack_require__(19);\n\nvar _React2 = _interopRequireDefault(_React);\n\nvar _App = __webpack_require__(175);\n\nvar _App2 = _interopRequireDefault(_App);\n\n'use strict';\n\n_React2['default'].render(_React2['default'].createElement(_App2['default'], null), document.body);\n\n/* REACT HOT LOADER */ })(); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/makeExportsHot.js\"), foundReactClasses = false; if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot not apply hot update to \" + \"index.jsx\" + \": \" + err.message); } }); } } })(); }\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/index.jsx\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/index.jsx?");
+	eval("/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js\"), RootInstanceProvider = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/RootInstanceProvider.js\"), ReactMount = require(\"react/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } (function () {\n\n'use strict';\n\nvar _interopRequireDefault = __webpack_require__(18)['default'];\n\nvar _React = __webpack_require__(19);\n\nvar _React2 = _interopRequireDefault(_React);\n\nvar _App = __webpack_require__(175);\n\nvar _App2 = _interopRequireDefault(_App);\n\n'use strict';\n\n__webpack_require__(199);\n__webpack_require__(200);\n__webpack_require__(201);\n__webpack_require__(202);\n__webpack_require__(203);\n\n_React2['default'].render(_React2['default'].createElement(_App2['default'], null), document.body);\n\n/* REACT HOT LOADER */ })(); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require(\"/Users/walkersmith/Repositories/hush-web/node_modules/react-hot-loader/makeExportsHot.js\"), foundReactClasses = false; if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot not apply hot update to \" + \"index.jsx\" + \": \" + err.message); } }); } } })(); }\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/index.jsx\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/index.jsx?");
 
 /***/ },
 /* 1 */,
@@ -1049,7 +1049,7 @@
 /* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"26bcb1ad9bda995c684981a31a9b8736.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/google-play-button/google-play-store.png\n ** module id = 185\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/google-play-button/google-play-store.png?");
+	eval("module.exports = __webpack_require__.p + \"google-play-store.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/google-play-button/google-play-store.png\n ** module id = 185\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/google-play-button/google-play-store.png?");
 
 /***/ },
 /* 186 */,
@@ -1067,37 +1067,67 @@
 /* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"a7757bdfcf3e28d0a6d705a9c8bf6f75.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/my-places.png\n ** module id = 193\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/my-places.png?");
+	eval("module.exports = __webpack_require__.p + \"my-places.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/my-places.png\n ** module id = 193\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/my-places.png?");
 
 /***/ },
 /* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"e04a373127d515513455084b09b51864.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-address.png\n ** module id = 194\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-address.png?");
+	eval("module.exports = __webpack_require__.p + \"search-address.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-address.png\n ** module id = 194\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-address.png?");
 
 /***/ },
 /* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"efb898035602d0d1f1aaaa08786e34a1.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-by-type.png\n ** module id = 195\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-by-type.png?");
+	eval("module.exports = __webpack_require__.p + \"search-by-type.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-by-type.png\n ** module id = 195\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-by-type.png?");
 
 /***/ },
 /* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"97f5fdcc05cc1bfb265e4087e835e61f.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-many.png\n ** module id = 196\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-many.png?");
+	eval("module.exports = __webpack_require__.p + \"search-many.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-many.png\n ** module id = 196\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-many.png?");
 
 /***/ },
 /* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"59808702209bbf65b678a881da7618bd.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-voice.png\n ** module id = 197\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-voice.png?");
+	eval("module.exports = __webpack_require__.p + \"search-voice.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/search-voice.png\n ** module id = 197\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/search-voice.png?");
 
 /***/ },
 /* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"eaba94abaeaf0e3c7ed2cfdc435c5a34.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/draw.png\n ** module id = 198\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/draw.png?");
+	eval("module.exports = __webpack_require__.p + \"draw.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/devices/draw.png\n ** module id = 198\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/devices/draw.png?");
+
+/***/ },
+/* 199 */
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("module.exports = __webpack_require__.p + \"logo.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/favicons/logo.png\n ** module id = 199\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/favicons/logo.png?");
+
+/***/ },
+/* 200 */
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("module.exports = __webpack_require__.p + \"apple-icon-57x57.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/favicons/apple-icon-57x57.png\n ** module id = 200\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/favicons/apple-icon-57x57.png?");
+
+/***/ },
+/* 201 */
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("module.exports = __webpack_require__.p + \"apple-icon-72x72.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/favicons/apple-icon-72x72.png\n ** module id = 201\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/favicons/apple-icon-72x72.png?");
+
+/***/ },
+/* 202 */
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("module.exports = __webpack_require__.p + \"apple-icon-114x114.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/favicons/apple-icon-114x114.png\n ** module id = 202\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/favicons/apple-icon-114x114.png?");
+
+/***/ },
+/* 203 */
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("module.exports = __webpack_require__.p + \"apple-icon-144x144.png\"\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/app/styles/assets/favicons/apple-icon-144x144.png\n ** module id = 203\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/app/styles/assets/favicons/apple-icon-144x144.png?");
 
 /***/ }
 /******/ ]);
