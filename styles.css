@@ -6261,7 +6261,7 @@ img.device {
   top: 50%;
   margin: -20px 0px 0px -20px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  background: #4575a4 url(d2a826bae760beec81eb6104b62e21e7.png) no-repeat center center;
+  background: #4575a4 url(arrow_down.png) no-repeat center center;
   -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(255, 255, 255, 0.5);
   -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(255, 255, 255, 0.5);
   box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(255, 255, 255, 0.5);
@@ -6271,7 +6271,7 @@ img.device {
   transition: all 0.3s ease-in-out;
 }
 .store-img {
-  background: url(26bcb1ad9bda995c684981a31a9b8736.png);
+  background: url(google-play-store.png);
   width: 50px;
   height: 50px;
 }
