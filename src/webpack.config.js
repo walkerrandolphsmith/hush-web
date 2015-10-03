@@ -66,7 +66,7 @@ module.exports = {
 		},
 		{
 			test: /\.png$/,
-			loader: "file-loader"
+			loader: "file-loader?name=[name].png"
 		},
 		{
 			test: /\.apk$/,
